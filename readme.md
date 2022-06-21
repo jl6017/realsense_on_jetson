@@ -4,4 +4,7 @@
 2. Python package: pyrealsense2, support arm64 ubuntu on jetson, windows, intel chip ubuntu. Unsuccessfull on m1 chip. [Read this to compile pyrealsense2 package. ](https://github.com/IntelRealSense/librealsense/tree/master/wrappers/python)\\
 [And this video](https://youtu.be/EeT-pzM8n-o)\\
 [For only compiled for python2 instead of python3 problem.](https://github.com/IntelRealSense/librealsense/issues/6980)
-
+3. m1 Mac works with: 
+```consol
+pip install pyrealsense2 -f https://github.com/cansik/pyrealsense2-macosx/releases
+```
